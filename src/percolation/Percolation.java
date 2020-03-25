@@ -45,7 +45,7 @@ public class Percolation {
             percolation[i] = new grid();
             percolation[i].father = i;
         }
-        System.out.printf("New %d*%d percolation\n", n, n);
+//        System.out.printf("New %d*%d percolation\n", n, n);
 
         //init top and bottom
         for (int i = 0; i < edge; i++) {
