@@ -198,7 +198,7 @@ public class Percolation {
 
     // test client (optional)
     public static void main(String[] args){
-        int n = 20;
+        int n = 0;
         int i = 50;
         while(i > 0) {
             Percolation p = new Percolation(n);
