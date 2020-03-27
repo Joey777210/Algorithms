@@ -1,10 +1,7 @@
 package percolation;
 
-import com.sun.xml.internal.ws.encoding.MtomCodec;
-import edu.princeton.cs.algs4.StdRandom;
 import edu.princeton.cs.algs4.StdRandom;
 import edu.princeton.cs.algs4.StdStats;
-import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 
 public class PercolationStats {
 
@@ -21,7 +18,7 @@ public class PercolationStats {
         this.trials = trials;
         this.results = new double[trials];
         for(int i = 0; i < trials; i++) {
-            Percolation p = new Percolation(n);
+            myPercolation p = new myPercolation(n);
             while (!p.percolates()) {
                 p.open((StdRandom.uniform(n)+1), (StdRandom.uniform(n)+1));
             }
