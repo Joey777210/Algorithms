@@ -58,26 +58,27 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
             return item;
         }
         int random = StdRandom.uniform(size);
-        Node ptr = first;
-        for (int i = 0; i < random - 1; i++) {
-            ptr = ptr.next;
-        }
+        Node ptr = get(random - 1);
         Item item = ptr.next.item;
         ptr.next = ptr.next.next;
         size--;
         return item;
     }
 
+    private Node get(int n) {
+        Node ptr = first;
+        for (int i = 0; i < n; i++) {
+            ptr = ptr.next;
+        }
+        return ptr;
+    }
     // return a random item (but do not remove it)
     public Item sample() {
         if (isEmpty()) {
             throw new NoSuchElementException();
         }
         int random = StdRandom.uniform(size);
-        Node ptr = first;
-        for (int i = 0; i < random; i++) {
-            ptr = ptr.next;
-        }
+        Node ptr = get(random);
         return ptr.item;
     }
 
@@ -87,11 +88,12 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
     }
 
     private class RandmonizedQueueIterator implements Iterator<Item> {
-        Node current = first;
+        int[] arr = new int[size()];
+        int count = 0;
 
         @Override
         public boolean hasNext() {
-            return current != null;
+            return count != size();
         }
 
         @Override
@@ -99,9 +101,15 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
             if (!hasNext()) {
                 throw new NoSuchElementException();
             }
-            Item item = current.item;
-            current = current.next;
-            return item;
+
+            int random = StdRandom.uniform(size());
+            while (arr[random] == 1) {
+                random = StdRandom.uniform(size());
+            }
+            Node node = get(random);
+            count++;
+            arr[random] = 1;
+            return node.item;
         }
 
         @Override

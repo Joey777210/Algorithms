@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02049d86-cf7e-4725-8ca3-8095a3a5dfe3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/queues/Deque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queues/Permutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queues/RandomizedQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmTest/queues/Deque$DequeIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmTest/queues/Deque$DequeIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmTest/queues/Deque$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmTest/queues/Deque$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmTest/queues/Deque.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmTest/queues/Deque.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmTest/queues/RandomizedQueue$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmTest/queues/RandomizedQueue$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmTest/queues/RandomizedQueue$RandmonizedQueueIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmTest/queues/RandomizedQueue$RandmonizedQueueIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmTest/queues/RandomizedQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmTest/queues/RandomizedQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queues/Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queues/Deque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queues/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queues/Permutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queues/RandomizedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queues/RandomizedQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +89,7 @@
     <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="queues.Permutation" />
       <module name="AlgorithmTest" />
-      <option name="PROGRAM_PARAMETERS" value="3 AA BB CC DD EE FF" />
+      <option name="PROGRAM_PARAMETERS" value="3 &lt; a.txt" />
       <option name="REDIRECT_INPUT" value="true" />
       <extension name="coverage">
         <pattern>
@@ -150,7 +156,7 @@
       <workItem from="1584964709174" duration="25414000" />
       <workItem from="1585151264794" duration="4216000" />
       <workItem from="1585192690247" duration="26345000" />
-      <workItem from="1585558025173" duration="16681000" />
+      <workItem from="1585558025173" duration="21877000" />
     </task>
     <servers />
   </component>
@@ -162,11 +168,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1584964810645" />
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585573056423">
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585587300452">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585572592498" />
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1585573056423" />
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1585587300452" />
     <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1585567888434">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -189,46 +195,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="570" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585573021785" />
-    <state width="1493" height="182" key="GridCell.Tab.0.bottom" timestamp="1585576520907">
+    <state width="1493" height="176" key="GridCell.Tab.0.bottom" timestamp="1585587313771">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585572607572" />
-    <state width="1493" height="182" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585576520907" />
-    <state width="1493" height="182" key="GridCell.Tab.0.center" timestamp="1585576520906">
+    <state width="1493" height="176" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585587313771" />
+    <state width="1493" height="176" key="GridCell.Tab.0.center" timestamp="1585587313771">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585572607572" />
-    <state width="1493" height="182" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585576520906" />
-    <state width="1493" height="182" key="GridCell.Tab.0.left" timestamp="1585576520906">
+    <state width="1493" height="176" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585587313771" />
+    <state width="1493" height="176" key="GridCell.Tab.0.left" timestamp="1585587313771">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585572607572" />
-    <state width="1493" height="182" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585576520906" />
-    <state width="1493" height="182" key="GridCell.Tab.0.right" timestamp="1585576520906">
+    <state width="1493" height="176" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585587313771" />
+    <state width="1493" height="176" key="GridCell.Tab.0.right" timestamp="1585587313771">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585572607572" />
-    <state width="1493" height="182" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585576520906" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1585573033467">
+    <state width="1493" height="176" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585587313771" />
+    <state width="1493" height="176" key="GridCell.Tab.1.bottom" timestamp="1585587314114">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585572607900" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585573033467" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1585573033467">
+    <state width="1493" height="176" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585587314114" />
+    <state width="1493" height="176" key="GridCell.Tab.1.center" timestamp="1585587314114">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585572607900" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585573033467" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1585573033467">
+    <state width="1493" height="176" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585587314114" />
+    <state width="1493" height="176" key="GridCell.Tab.1.left" timestamp="1585587314114">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585572607900" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585573033467" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1585573033467">
+    <state width="1493" height="176" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585587314114" />
+    <state width="1493" height="176" key="GridCell.Tab.1.right" timestamp="1585587314114">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585572607900" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585573033467" />
+    <state width="1493" height="176" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585587314114" />
     <state x="270" y="0" key="SettingsEditor" timestamp="1584964807639">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -242,11 +248,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="177" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1585026405815" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1585563570292">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1585587363775">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585233514245" />
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1585563570292" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1585587363775" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -270,6 +276,16 @@
           <url>file://$PROJECT_DIR$/src/percolation/Percolation.java</url>
           <line>127</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/queues/Deque.java</url>
+          <line>147</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/queues/Permutation.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

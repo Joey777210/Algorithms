@@ -65,12 +65,13 @@ public class Deque<Item> implements Iterable<Item> {
         newNode.element = item;
         if (first == null) {
             last = newNode;
+            first = newNode;
         } else {
             last.next = newNode;
             newNode.before = last;
             last = newNode;
-            size++;
         }
+        size++;
     }
 
     // remove and return the item from the front
@@ -78,21 +79,39 @@ public class Deque<Item> implements Iterable<Item> {
         if (size == 0) {
             throw new NoSuchElementException();
         }
-        Node old = first;
-        first = first.next;
-        first.before = null;
-        return old.element;
+        if (size == 1) {
+            Item i = first.element;
+            first = null;
+            last = null;
+            size--;
+            return i;
+        } else {
+            Node old = first;
+            first = first.next;
+            first.before = null;
+            size--;
+            return old.element;
+        }
     }
 
     // remove and return the item from the back
     public Item removeLast() {
-        if (size == 0) {
+        if (size() == 0) {
             throw new NoSuchElementException();
         }
-        Item i = last.element;
-        last = last.before;
-        last.next = null;
-        return i;
+        if (size() == 1) {
+            Item i = first.element;
+            first = null;
+            last = null;
+            size--;
+            return i;
+        } else {
+            Item i = last.element;
+            last = last.before;
+            last.next = null;
+            size--;
+            return i;
+        }
     }
 
     // return an iterator over items in order from front to back
@@ -127,14 +146,9 @@ public class Deque<Item> implements Iterable<Item> {
     // unit testing (required)
     public static void main(String[] args) {
         Deque<String> deque = new Deque<>();
-        deque.addFirst("addFirst");
-        deque.addLast("addLast");
-        System.out.println(deque.size());
-        System.out.println(deque.isEmpty());
+        deque.addLast("wqe");
         deque.removeLast();
-        for (String s : deque) {
-            System.out.println(s);
-        }
+        deque.removeLast();
 
     }
 }
