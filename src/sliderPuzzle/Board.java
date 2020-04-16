@@ -1,11 +1,7 @@
 package sliderPuzzle;
 
-import edu.princeton.cs.algs4.BinaryOut;
-import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdRandom;
-
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
@@ -77,7 +73,6 @@ public class Board {
                     j1 = len;
                 }
                 int distance = Math.abs(i1 - i) + Math.abs(j1 - j);
-                System.out.println();
                 distances += distance;
             }
         }
@@ -185,9 +180,12 @@ public class Board {
 
     // a board that is obtained by exchanging any pair of tiles
     public Board twin() {
-        int i = StdRandom.uniform(dimension());
-        int j = StdRandom.uniform(dimension());
-        return new Board(swap(board, i, j, j, i));
+        for (int i = 0; i < 2; i++) {
+            if (board[i][0] != 0 && board[i][1] != 0) {
+                return new Board(swap(board, i, 0, i, 1));
+            }
+        }
+        throw new IllegalArgumentException();
     }
 
     // unit testing (not graded)
