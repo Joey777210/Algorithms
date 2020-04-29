@@ -3,6 +3,8 @@ package sliderPuzzle;
 import edu.princeton.cs.algs4.MinPQ;
 import edu.princeton.cs.algs4.Stack;
 
+import java.util.Objects;
+
 public class Solver {
     private Node goalNode;
     private int moves;
@@ -84,6 +86,7 @@ public class Solver {
             return Integer.compare(this.getManhattanPriority(), node.getManhattanPriority());
         }
     }
+
     public static void main(String[] args) {
         int[][] board = {{1,2,3},{4,5,6},{7,8,0}};
         Board b = new Board(board);
