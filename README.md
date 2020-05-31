@@ -1,4 +1,4 @@
 # Algorithms
-My answer for Coursera class Algorithms. Princeton University.  
-It is not the right answer. It's my personal record.    
-I'd be honored if someone could point out my mistakes
+## Coursera class AlgorithmsI 和 II. Princeton University.  的答案  
+很多题是借鉴了 https://github.com/zhichaoh/Coursera-Algorithms 这位前辈的思路  
+并不是满分答案
